@@ -1,17 +1,23 @@
 body {
 	color: #444;
 	margin: 0 auto;
-	/*
 	max-width: 500em;
 	padding: 1em 1em;
 	line-height: 1.5;	
-	*/
 }
 
 A:link { COLOR: #333; TEXT-DECORATION: none; font-weight: normal }
 A:visited { COLOR: #ccc; TEXT-DECORATION: none; font-weight: normal }
 A:active { COLOR: #333; TEXT-DECORATION: none }
 A:hover { COLOR: #000; TEXT-DECORATION: underline; font-weight: none }
+
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
 
 h1 {
   font-family: 'Open Sans', sans-serif; 
@@ -45,7 +51,7 @@ h1 {
 	vertical-align: middle;
 	display: block;
 	width: 107%;
-	length: 100%;
+	height: 100%;
 	margin: .45em auto;
 }
 .portraitimg {
@@ -54,7 +60,7 @@ h1 {
 	border-width: 8px;	
 	border-color: #ccc;
 	width: 80%;
-	length: 80%;
+	height: 80%;
 }
 .main-caption {
 	margin: .5em 0em auto 0em;
