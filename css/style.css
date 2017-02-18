@@ -11,7 +11,7 @@ body {
 A:link { COLOR: #333; TEXT-DECORATION: none; font-weight: normal }
 A:visited { COLOR: #ccc; TEXT-DECORATION: none; font-weight: normal }
 A:active { COLOR: #333; TEXT-DECORATION: none }
-A:hover { COLOR: #000; TEXT-DECORATION: none; font-weight: none }
+A:hover { COLOR: #000; TEXT-DECORATION: underline; font-weight: none }
 
 h1 {
   font-family: 'Open Sans', sans-serif; 
