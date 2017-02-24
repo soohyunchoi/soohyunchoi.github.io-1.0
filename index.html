@@ -1,169 +1,53 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
+    
   <meta charset="UTF-8">
-  <title>freeCodeCamp Project 1</title>
+  <title>freeCodeCamp Project 2</title>
   <script src="https://use.fontawesome.com/678dcaa1af.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
-  
-  <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-
-      <link rel="stylesheet" href="css/style.css">
-
-  
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:light|Playfair+Display" rel="stylesheet">
+<link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+    
 </head>
-
 <body>
-  <div class="container">
+<container>
+    <!-- NAVBAR /////////////////////////////////////-->
+    <nav class="navbar-toggleable-md navbar navbar-light sticky-top">
 
-	<body>
-		<!-- NAVBAR \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-		<div>
-			<nav class="navbar navbar-light bg-faded" style="background-color: #c4c4c4; margin-bottom: 10px;">
-				<span>
-       <a class="navbar-brand" href="/">
-         project: <i style="font-size: 15px" class="fa fa-empire"></i>
-        </a>
-      <span class="navbar-text">
-        my first freeCodeCamp project v1.1
-      </span>
-				</span>
-			</nav>
-		</div>
-		<!-- JUMBOTRON -->
-		<div style="margin:5em;" class="jumbotron">
-			<div class="row">
-				<!-- intro + kendrick card \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
-				<div class="col-md-12">
-					<h1 class="text-center strong" style="margin-top: 0em"><i style="color: #bcbcbc; vertical-align: middle; font-size: .35em;" class="fa fa-star"></i> featured artist</h1>
-					<h2 class="text-center" id="main-subtext"> presented by the bomb dot com</h2>
-					<!-- f.r. portrait card -->
-					<div class="row">
-						<div class="col-md-3"></div>
-						<div class="col-md-6">
-							<div class="card card-outline-secondary">
-								<div class="card-block">
-									
-									<a href="https://en.wikipedia.org/wiki/Kendrick_Lamar">
-									<h3 class="card-subtitle text-center">kendrick lamar</h3>
-									</a>
-									
-									<br>
-									<img class="portraitimg" id="fr-portrait" src="http://cache.umusic.com/_sites/kendricklamar.com/images/og.jpg">
-									<p style="color: #222" id="portrait-caption">rapper <i style="vertical-align: middle; font-size: 10px;" class="fa fa-forward"></i> songwriter <i style="vertical-align: middle; font-size: 10px;" class="fa fa-backward"></i> genius</p>
-									<p class="kendrick-bio">Kendrick Lamar Duckworth (born June 17, 1987) is an American rapper and songwriter. 
-Lamar has received a number of accolades over the course of his career, including seven Grammy Awards. In early 2013, MTV named Lamar the number one "Hottest MC in the Game", on their annual list. Time named Lamar one of the 100 most influential people in the world in 2016. Aside from his solo career, Lamar is also known as a member of the West Coast hip hop supergroup Black Hippy, alongside his TDE label-mates.</p>
-								</div>
-							</div>
-							<!-- end of portrait card -->
-
-							<!-- actual content -->
-							<h3 style="color: #222" id="disco-topsub">the complete</h3>
-							<h2 style="color: #111" id="disco-main">kendrick lamar discography:</h2>
-						</div>
-					</div>
-				</div>
-            <!-- album list \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
-            <div>
-				<!--over dedicated------------------------------------------------------------->
-				<div id="start-album" class="row album-row">
-					<!-- left side spacer -->
-					<div class="col-md-1"></div>
-					<!-- album cover -->
-
-					<div class="col-md-2">
-						<img class="album-cover" src="https://upload.wikimedia.org/wikipedia/en/0/03/Kendrick_Lamar_-_Overly_Dedicated.jpg" alt="Overly Dedicated Album Cover">
-
-					</div>
-					<!-- album text -->
-					<div class="col-md-8">
-						<p><em><strong>Overly Dedicated</strong></em> is the fifth mixtape by American hip hop recording artist Kendrick Lamar, released on September 14, 2010, via Top Dawg Entertainment. The album features guest appearances from Dash Snow, Jhené Aiko, Schoolboy
-							Q, Ab-Soul, and Murs, among others. The album's production was handled by several TDE in-house producers, including King Blue, Sounwave, Tae Beast and Willie B. As of October 2012, the mixtape has sold a total of 12,000 copies.
-						</p>
-					</div>
-				</div>
-				<!-- end of overly dedicated -------------------------------------------->
-
-				<!-- section.80 --------------------------------------------------------->
-				<div class="row album-row">
-					<!-- left side spacer -->
-					<div class="col-md-1"> </div>
-					<!-- album cover -->
-					<div class="col-md-2">
-						<img class="album-cover" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Section.80-Cover.jpg/220px-Section.80-Cover.jpg" alt="Section.80 Album Cover">
-					</div>
-					<!-- album text -->
-					<div class="col-md-8">
-						<p>The title <em><strong>Section.80</strong></em> is a combination of the name for inner city housing, or “Section 8” housing, as well as the decade that Kendrick was born in, the 1980s. The subject matter ranges from black people’s strife due to the Reagan Administration, women’s issues, drug abuse and conspiracy theories about the government, without sacrificing precise, agile lyricism. The album debuted at number 113 on the Billboard 200, with minimal mainstream media promotion and coverage. As of February 2014, Section.80 has sold 130,000 copies domestically.
-						</p>
-					</div>
-				</div>
-				<!-- end of section80 ------------------------------------------------------->
-
-				<!-- Good Kid, M.A.A.D City ------------------------------------------------->
-				<div class="row album-row">
-					<!-- left side spacer -->
-					<div class="col-md-1"> </div>
-					<!-- album cover -->
-					<div class="col-md-2">
-						<img class="album-cover" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/93/KendrickGKMC.jpg/220px-KendrickGKMC.jpg" alt="good kid maad city cover">
-					</div>
-					<!-- album text -->
-					<div class="col-md-8">
-						<p>Subtitled “A Short Film by Kendrick Lamar,” <em><strong>good kid, M.A.A.D city</strong></em> depicts a day in the life of a 17-year-old Lamar as he rides around Compton in his Momma’s minivan. By March 2015, the album had sold 1,400,000 copies domestically. The album was released on October 22, 2012, by Top Dawg Entertainment, Aftermath Entertainment, and was distributed by Interscope Records. The album serves as Lamar's major label debut, after his signing to Aftermath and Interscope in early 2012.
-						</p>
-					</div>
-				</div>
-				<!-- end of Good Kid, M.A.A.D City ---------------=-------------------------->
-
-				<!-- To Pimp a Butterfly ------------------------------------------------->
-				<div class="row album-row">
-					<!-- left side spacer -->
-					<div class="col-md-1"> </div>
-					<!-- album cover -->
-					<div class="col-md-2">
-						<img class="album-cover" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Kendrick_Lamar_-_To_Pimp_a_Butterfly.png/220px-Kendrick_Lamar_-_To_Pimp_a_Butterfly.png" alt="TPaB cover">
-					</div>
-					<!-- album text -->
-					<div class="col-md-8">
-						<div style="vertical-align: middle;">
-							<p><em><strong>To Pimp a Butterfly</strong></em> explores what it means to be a rich black American in the 2010s. It draws influence from a variety of black musics – funk, soul, jazz, pop, and hip hop. It was released on March 15, 2015, by Top Dawg Entertainment, Aftermath Entertainment and Interscope Records. The album was recorded in studios throughout the United States, with production from Sounwave, Flying Lotus, Pharrell Williams, Boi-1da, and several other high-profile hip hop producers, as well as executive production from Dr. Dre and Anthony "Top Dawg" Tiffith.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- END OF To Pimp a Butterfly ---------------=-------------------------->
-
-
-				<!-- Untitled Unmastered ------------------------------------------------->
-				<div class="row album-row">
-					<!-- left side spacer -->
-					<div class="col-md-1"> </div>
-					<!-- album cover -->
-					<div class="col-md-2">
-						<img class="album-cover" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Kendrick_Lamar_-_Untitled_Unmastered_%28Artwork%29.jpg/220px-Kendrick_Lamar_-_Untitled_Unmastered_%28Artwork%29.jpg" alt="untitled unmastered cover">
-					</div>
-					<!-- album text -->
-					<div class="col-md-8">
-						<div style="vertical-align: middle;">
-							<p><em><strong>untitled unmastered.</strong></em> is a compilation album released on March 4, 2016, by Top Dawg Entertainment, Aftermath Entertainment and Interscope Records. It consists of previously unreleased demos that originated during the recording
-								of Lamar's album <em>To Pimp a Butterfly</em>. Upon its release, the compilation album received acclaim from music critics, and it debuted atop the US Billboard 200.
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- Untitled Unmastered ---------------=-------------------------->
+        <!-- Logo ------------->
+        <a class="navbar-brand" href="#">
+            <div id="navbar-logo" style="background-color: #c0b283; height: 4.5em; width: 4.5em">
+                <i style="color: #f4f4f4; font-size: 2.5rem;" class="fa fa-ra" id="logo-rebelsign"></i>
             </div>
-				<!-- end of album list -->
-			</div>
-			<!-- container div -->
-		</div>
-	</body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        </a>
+    <!-- Links ------------>
+           <ul class="navbar-nav mr-auto mt-2">
+               <li class="nav-item active">
+               </li>
+            </ul>
+           <a class="nav-link my-2 my-sm-0" href="#about">about</a>
+           <a class="nav-link my-2 my-sm-0" href="#">projects</a>
+           <a class="nav-link my-2 my-sm-0" href="#">connect</a>
+            <div style="width: .5em"></div>
+    </nav>
+    
+    <!--- About --------->
+<section style="background-color: light-green; margin: 2rem auto;" id="about">
+    <div class="container text-center">
+        <h2>hello, my name is sushi.</h2>
+        <h1>welcome to my crib.</h1>
 
-    <script src="js/index.js"></script>
     </div>
+
+</section>
+    
+    
+    
+    
+    
+    
+    
+</container>
 </body>
 </html>
