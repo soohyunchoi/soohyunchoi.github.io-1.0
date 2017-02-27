@@ -1,8 +1,10 @@
 body {
 	color: #444;
 	margin: 0 auto;
+	/*
 	max-width: 500em;
 	padding: 1em 1em;
+<<<<<<< HEAD
 	line-height: 1.5;
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #373737
@@ -16,6 +18,20 @@ h1{
 h2{
     color: #C0B283;
     font-size: 2.5rem;
+=======
+	line-height: 1.5;	
+	*/
+}
+
+A:link { COLOR: #333; TEXT-DECORATION: none; font-weight: normal }
+A:visited { COLOR: #ccc; TEXT-DECORATION: none; font-weight: normal }
+A:active { COLOR: #333; TEXT-DECORATION: none }
+A:hover { COLOR: #000; TEXT-DECORATION: underline; font-weight: none }
+
+h1 {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 100px;
+>>>>>>> parent of ce56de7... ez
 }
 A:link { 
     COLOR: #C0B283; 
@@ -48,6 +64,7 @@ p {
     margin: 1rem .1rem;
 }
 
+<<<<<<< HEAD
 .navbar{
     
     position: fixed;
@@ -58,10 +75,19 @@ p {
     color: #C0B283;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.45em;
+=======
+.album-cover {
+	vertical-align: middle;
+	display: block;
+	width: 107%;
+	length: 100%;
+	margin: .45em auto;
+>>>>>>> parent of ce56de7... ez
 }
 .portraitimg {
     border-radius: 1%;
 	border-style: solid;
+<<<<<<< HEAD
 	border-width: 1px;	
 	border-color: #C0B283;
     width:100%;
@@ -76,6 +102,16 @@ p {
     outline-style: solid;
     color: #C0B283;
     height: 100rem;
+=======
+	border-width: 8px;	
+	border-color: #ccc;
+	width: 80%;
+	length: 80%;
+}
+.main-caption {
+	margin: .5em 0em auto 0em;
+	font-size: 20px;
+>>>>>>> parent of ce56de7... ez
 }
 .portfolio-thumbnails{
 }
