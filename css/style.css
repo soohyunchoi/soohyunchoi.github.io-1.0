@@ -1,132 +1,78 @@
 body {
 	color: #444;
 	margin: 0 auto;
-	/*
 	max-width: 500em;
 	padding: 1em 1em;
-<<<<<<< HEAD
-	line-height: 1.5;
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: #373737
-}
-h1{
-    color: #C0B283;
-    font-family: 'Playfair Display', serif;
-    font-size: 4rem;
-    margin: -1rem
-}
-h2{
-    color: #C0B283;
-    font-size: 2.5rem;
-=======
 	line-height: 1.5;	
-	*/
 }
 
 A:link { COLOR: #333; TEXT-DECORATION: none; font-weight: normal }
 A:visited { COLOR: #ccc; TEXT-DECORATION: none; font-weight: normal }
 A:active { COLOR: #333; TEXT-DECORATION: none }
-<<<<<<< HEAD
-A:hover { COLOR: #000; TEXT-DECORATION: none; font-weight: none }
-=======
 A:hover { COLOR: #000; TEXT-DECORATION: underline; font-weight: none }
->>>>>>> parent of ce56de7... ez
 
-h1 {
-  font-family: 'Open Sans', sans-serif; 
-  font-size: 100px;
->>>>>>> parent of ce56de7... ez
-}
-A:link { 
-    COLOR: #C0B283; 
-    TEXT-DECORATION: none; 
-    font-weight: normal 
-}
-A:visited { 
-    COLOR: #C0B283; 
-    TEXT-DECORATION: none; 
-    font-weight: normal 
-}
-A:active { 
-    COLOR: #C0B283; 
-    TEXT-DECORATION: none 
-}
-A:hover { 
-    COLOR: #C0B283; 
-    TEXT-DECORATION: none; 
-    font-weight: none 
-}
-p {
-    font-size: 1.3rem;
-
-}
-
-.hline { 
-    width:8%; 
-    height:1px; 
-    background: #C0B283;
-    margin: 1rem .1rem;
-}
-
-<<<<<<< HEAD
 .navbar{
-    
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     z-index: 1000;
-    color: #C0B283;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.45em;
-=======
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 100px;
+}
+#disco-main {
+    padding: 0em 0em .5em 0em;
+}
+#main-subtext{
+    margin: "-0.15em 0em 2em 0em";
+    font-weight: normal;
+}
+#fr-portrait{
+    margin: 0 auto;
+    display: block;
+}
+#start-album{
+	margin: -.2em auto .4em;
+}
+.kendrick-bio {
+	padding: 1em 3em 0em 3em;
+	text-align: justify;
+}
+.album-row {
+	margin: .4em auto .4em;
+	display: flex;
+	align-items: center;
+}
+
 .album-cover {
 	vertical-align: middle;
 	display: block;
 	width: 107%;
-	length: 100%;
+	height: 100%;
 	margin: .45em auto;
->>>>>>> parent of ce56de7... ez
 }
 .portraitimg {
-    border-radius: 1%;
+	border-radius: 50%;
 	border-style: solid;
-<<<<<<< HEAD
-	border-width: 1px;	
-	border-color: #C0B283;
-    width:100%;
-    height:100%;
-} 
-.jumbotron-fluid{
-    background-color: #373737;
-    margin: 7rem 1rem 1rem 1rem;
-    display: block; 
-    outline-color: #C0B283; 
-    outline-width: 1px;  
-    outline-style: solid;
-    color: #C0B283;
-    height: 100rem;
-=======
 	border-width: 8px;	
 	border-color: #ccc;
 	width: 80%;
-	length: 80%;
+	height: 80%;
 }
 .main-caption {
 	margin: .5em 0em auto 0em;
 	font-size: 20px;
->>>>>>> parent of ce56de7... ez
 }
-.portfolio-thumbnails{
+.card-block {
+    padding: 2em 0em 1em 0em;
 }
-.port-page{
-    position: relative;
+h3 {
+	margin: 1em 0em 0em 0em;
+	font-weight: normal;
 }
-
-
-#navbar-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: .8em !important;
+.strong{
+  color: #111
 }
