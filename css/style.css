@@ -1,56 +1,78 @@
 body {
-	color: white;
+	color: #444;
 	margin: 0 auto;
 	max-width: 500em;
 	padding: 1em 1em;
 	line-height: 1.5;	
 }
 
-A:link {
-    COLOR: white;
-    TEXT-DECORATION: none;
-    font-weight: normal
-}
-A:visited {
-    COLOR: white;
-    TEXT-DECORATION: none;
-    font-weight: normal }
-A:active {
-    COLOR: white;
-    TEXT-DECORATION: none
-}
-A:hover {
-    COLOR: white;
-    TEXT-DECORATION: none;
-    font-weight: normal;
-    background-color: cadetblue;
+A:link { COLOR: #333; TEXT-DECORATION: none; font-weight: normal }
+A:visited { COLOR: #ccc; TEXT-DECORATION: none; font-weight: normal }
+A:active { COLOR: #333; TEXT-DECORATION: none }
+A:hover { COLOR: #000; TEXT-DECORATION: underline; font-weight: none }
+
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 h1 {
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-    font-size: 17px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: .2em;
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 100px;
 }
-p {
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-    font-size: 11px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 1.4em;
+#disco-main {
+    padding: 0em 0em .5em 0em;
 }
-.containerr {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+#main-subtext{
+    margin: "-0.15em 0em 2em 0em";
+    font-weight: normal;
 }
-.icons{
-    
+#fr-portrait{
+    margin: 0 auto;
+    display: block;
 }
-.links{
-    padding: 1px;
+#start-album{
+	margin: -.2em auto .4em;
+}
+.kendrick-bio {
+	padding: 1em 3em 0em 3em;
+	text-align: justify;
+}
+.album-row {
+	margin: .4em auto .4em;
+	display: flex;
+	align-items: center;
+}
+
+.album-cover {
+	vertical-align: middle;
+	display: block;
+	width: 107%;
+	height: 100%;
+	margin: .45em auto;
+}
+.portraitimg {
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 8px;	
+	border-color: #ccc;
+	width: 80%;
+	height: 80%;
+}
+.main-caption {
+	margin: .5em 0em auto 0em;
+	font-size: 20px;
+}
+.card-block {
+    padding: 2em 0em 1em 0em;
+}
+h3 {
+	margin: 1em 0em 0em 0em;
+	font-weight: normal;
+}
+.strong{
+  color: #111
 }
