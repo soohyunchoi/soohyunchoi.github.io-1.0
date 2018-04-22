@@ -20,8 +20,8 @@ A:active {
     TEXT-DECORATION: none
 }
 A:hover {
-    COLOR: #000;
-    TEXT-DECORATION: underline;
+    COLOR: white;
+    TEXT-DECORATION: none;
     font-weight: normal;
     background-color: cadetblue;
 }
@@ -49,5 +49,8 @@ p {
     transform: translateX(-50%) translateY(-50%);
 }
 .icons{
-    background-color: yellow;
+    
+}
+.links{
+    padding: 1px;
 }
