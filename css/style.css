@@ -71,7 +71,7 @@ p {
 }
 
 /* index page */
-.icons{
+.icons:hover{
     background-color: transparent !important;
 }
 .links{
