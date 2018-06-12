@@ -34,7 +34,7 @@ p {
 }
 .titlelogo:hover{
     background-color: transparent;
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 .titlelogo {
     display: inline-block;
@@ -71,6 +71,23 @@ p {
 }
 
 /* index page */
+.mainscreengrow{
+        display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+    background-color: transparent;
+}
+.mainscreengrow:hover,
+.mainscreengrow:focus,
+.mainscreengrow:active{
+    transform: scale(1.08)
+}
+.mainscreengrow:hover{
+     background-color: transparent;
+}
 .icons:hover{
     background-color: transparent !important;
 }
