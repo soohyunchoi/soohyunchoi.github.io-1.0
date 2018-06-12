@@ -1,73 +1,110 @@
 body {
+    background-color: rgb(20, 20, 20);
 	color: white;
 	margin: 0 auto;
-	max-width: 500em;
-	padding: 1em 1em;
-	line-height: 1.5;	
-}
 
-A:link {
-    COLOR: white;
-    TEXT-DECORATION: none;
-    font-weight: normal
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 15px;
+
 }
-A:visited {
+a:link {
     COLOR: white;
     TEXT-DECORATION: none;
-    font-weight: normal }
-A:active {
+}
+a:visited {
+    COLOR: white;
+    TEXT-DECORATION: none;
+}
+a:active {
     COLOR: white;
     TEXT-DECORATION: none
 }
-A:hover {
+a:hover {
     COLOR: white;
     TEXT-DECORATION: none;
-    font-weight: normal;
     background-color: cadetblue;
 }
-
 h1 {
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     font-size: 1.2em;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
     line-height: .1em;
 }
 p {
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     font-size: 11px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
     line-height: 1.4em;
 }
-.containerr {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+.titlelogo:hover{
+    background-color: transparent;
+    transform: scale(1.05);
 }
+.titlelogo {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    transition-duration: .5s;
+    transition-property: transform;
+
+}
+.navlink{
+    font-size: 11px;
+    margin: .8em;
+    padding: 1px;
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 200;
+}
+.topnavcenter{
+    font-size: 20px;
+    margin-top: 2.2em;
+    font-family: 'IBM Plex Serif', serif;
+    padding-left: em;
+}
+.topnavleft{
+    margin-left: 14em;
+    margin-top: 3em;
+}
+.topnavright{
+    margin-right: 12em;
+    margin-top: 3em;
+}
+
+/* index page */
 .icons{
     background-color: transparent !important;
 }
 .links{
     padding: 1px;
 }
-/* Grow */
+.indexcontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
     transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
     transition-duration: 0.1s;
     transition-property: transform;
 }
-
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
     transform: scale(1.15);
+}
+
+/* about page */
+.aboutflex {
+    display: flex;
+    justify-content: center;
+
+}
+.aboutitem{
+    font-size: 10px;
+    margin-top: 8em;
+    width: 35%;
 }
