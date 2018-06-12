@@ -1,78 +1,110 @@
 body {
-	color: #444;
+    background-color: rgb(20, 20, 20);
+	color: white;
 	margin: 0 auto;
-	max-width: 500em;
-	padding: 1em 1em;
-	line-height: 1.5;	
+
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 15px;
+
 }
-
-A:link { COLOR: #333; TEXT-DECORATION: none; font-weight: normal }
-A:visited { COLOR: #ccc; TEXT-DECORATION: none; font-weight: normal }
-A:active { COLOR: #333; TEXT-DECORATION: none }
-A:hover { COLOR: #000; TEXT-DECORATION: underline; font-weight: none }
-
-.navbar{
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+a:link {
+    COLOR: white;
+    TEXT-DECORATION: none;
 }
-
+a:visited {
+    COLOR: white;
+    TEXT-DECORATION: none;
+}
+a:active {
+    COLOR: white;
+    TEXT-DECORATION: none
+}
+a:hover {
+    COLOR: white;
+    TEXT-DECORATION: none;
+    background-color: cadetblue;
+}
 h1 {
-  font-family: 'Open Sans', sans-serif; 
-  font-size: 100px;
+    font-size: 1.2em;
+    line-height: .1em;
 }
-#disco-main {
-    padding: 0em 0em .5em 0em;
+p {
+    font-size: 11px;
+    line-height: 1.4em;
 }
-#main-subtext{
-    margin: "-0.15em 0em 2em 0em";
-    font-weight: normal;
+.titlelogo:hover{
+    background-color: transparent;
+    transform: scale(1.05);
 }
-#fr-portrait{
-    margin: 0 auto;
-    display: block;
+.titlelogo {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    transition-duration: .5s;
+    transition-property: transform;
+
 }
-#start-album{
-	margin: -.2em auto .4em;
+.navlink{
+    font-size: 11px;
+    margin: .8em;
+    padding: 1px;
 }
-.kendrick-bio {
-	padding: 1em 3em 0em 3em;
-	text-align: justify;
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 200;
 }
-.album-row {
-	margin: .4em auto .4em;
-	display: flex;
-	align-items: center;
+.topnavcenter{
+    font-size: 20px;
+    margin-top: 2.2em;
+    font-family: 'IBM Plex Serif', serif;
+    padding-left: em;
+}
+.topnavleft{
+    margin-left: 14em;
+    margin-top: 3em;
+}
+.topnavright{
+    margin-right: 12em;
+    margin-top: 3em;
 }
 
-.album-cover {
-	vertical-align: middle;
-	display: block;
-	width: 107%;
-	height: 100%;
-	margin: .45em auto;
+/* index page */
+.icons{
+    background-color: transparent !important;
 }
-.portraitimg {
-	border-radius: 50%;
-	border-style: solid;
-	border-width: 8px;	
-	border-color: #ccc;
-	width: 80%;
-	height: 80%;
+.links{
+    padding: 1px;
 }
-.main-caption {
-	margin: .5em 0em auto 0em;
-	font-size: 20px;
+.indexcontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
-.card-block {
-    padding: 2em 0em 1em 0em;
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    transition-duration: 0.1s;
+    transition-property: transform;
 }
-h3 {
-	margin: 1em 0em 0em 0em;
-	font-weight: normal;
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.15);
 }
-.strong{
-  color: #111
+
+/* about page */
+.aboutflex {
+    display: flex;
+    justify-content: center;
+
+}
+.aboutitem{
+    font-size: 10px;
+    margin-top: 8em;
+    width: 35%;
 }
