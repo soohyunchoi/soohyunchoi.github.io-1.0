@@ -41,7 +41,7 @@ p {
     vertical-align: middle;
     transform: translateZ(0);
     backface-visibility: hidden;
-    transition-duration: .5s;
+    transition-duration: 0.5s;
     transition-property: transform;
 
 }
@@ -107,4 +107,35 @@ p {
     font-size: 10px;
     margin-top: 8em;
     width: 35%;
+}
+/* portfolio page */
+.contactflex{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.contactitem{
+    font-size: 30px;
+}
+.contacticon{
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    transition-duration: 0.5s;
+    transition-property: transform;
+}
+.contacticon:hover{
+    background-color: transparent;
+}
+
+.contacticon:hover,
+.contacticon:focus,
+.contacticon:active {
+    transform: scale(1.15);
+}
+.contactlink:hover,
+.contactlink:focus,
+.contactlink:active {
+    background-color: transparent;
 }
