@@ -56,6 +56,12 @@ p {
     justify-content: space-between;
     font-weight: 200;
 }
+.containerr {
+            position: absolute;
+            top: 40%;
+            left: 52%;
+            transform: translateX(-50%) translateY(-50%);
+        }
 .topnavcenter{
     font-size: 20px;
     margin-top: 2.2em;
