@@ -1,0 +1,11 @@
+/* about page */
+.aboutflex {
+    display: flex;
+    justify-content: center;
+
+}
+.aboutitem{
+    font-size: 10px;
+    margin-top: 8em;
+    width: 35%;
+}
