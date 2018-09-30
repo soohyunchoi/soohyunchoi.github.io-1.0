@@ -20,3 +20,14 @@
 .icons:hover{
     background-color: transparent !important;
 }
+h1{
+  margin-bottom: 0px;
+}
+h2{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 11px;
+}
+p{
+  line-height: 1.9;
+}
