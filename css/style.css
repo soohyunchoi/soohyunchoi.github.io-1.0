@@ -56,4 +56,11 @@ p {
 .hvr-grow:active {
     transform: scale(1.15);
 }
-
+.footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 100px 0px 10px
+}
+#contactfooter{
+  padding-top: 500px;
+}
