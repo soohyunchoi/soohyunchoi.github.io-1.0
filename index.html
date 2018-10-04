@@ -34,7 +34,7 @@
           <br>
             <a href="about" class="links">
             about</a><br>
-            <a href="https://github.com/officialsushi" class="links">
+            <a href="https://github.com/soohyunchoi" class="links">
             portfolio</a><br>
             <a href="https://drive.google.com/file/d/1dqr5LD0wikuNvs2_XxvdSnZOoxOCUcGv/view?usp=sharing" class="links">
             resume</a><br>
@@ -44,7 +44,7 @@
 
             <!--icons -->
 
-            <a class="icons hvr-grow" href="http://www.github.com/officialsushi">
+            <a class="icons hvr-grow" href="http://www.github.com/soohyunchoi">
                          <i class="fab fa-github fa-lg"></i></a>
             <a class="icons hvr-grow" href="http://www.instagram.com/sushchoi">
             <i class="fab fa-instagram fa-lg"></i></a>
@@ -53,5 +53,46 @@
         </p>
         </div>
     </div>
+
+    <script type="text/javascript">
+function tb8_makeArray(n){
+this.length = n;
+return this.length;
+}
+
+tb8_messages = new tb8_makeArray(4);
+tb8_messages[0] = "hi my name is soohyun";
+tb8_messages[1] = "people call me sush";
+tb8_messages[2] = "welcome to my website!";
+tb8_messages[3] = "Soohyun Choi";
+tb8_rptType = 'finite';
+tb8_rptNbr = 1;
+tb8_speed = 100;
+tb8_delay = 2000;
+var tb8_counter=1;
+var tb8_currMsg=0;
+var tb8_tekst ="";
+var tb8_i=0;
+var tb8_TID = null;
+function tb8_pisi(){
+tb8_tekst = tb8_tekst + tb8_messages[tb8_currMsg].substring(tb8_i, tb8_i+1);
+document.title = tb8_tekst;
+tb8_sp=tb8_speed;
+tb8_i++;
+if (tb8_i==tb8_messages[tb8_currMsg].length){
+tb8_currMsg++; tb8_i=0; tb8_tekst="";tb8_sp=tb8_delay;
+}
+if (tb8_currMsg == tb8_messages.length){
+if ((tb8_rptType == 'finite') && (tb8_counter==tb8_rptNbr)){
+clearTimeout(tb8_TID);
+return;
+}
+tb8_counter++;
+tb8_currMsg = 0;
+}
+tb8_TID = setTimeout("tb8_pisi()", tb8_sp);
+}
+tb8_pisi()
+</script>
 </body>
 </html>
