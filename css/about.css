@@ -32,8 +32,11 @@
   height: 120px;
   flex-grow: 1;
 }
-.aboutgallery .aboutgalleryimgs{
-
+.aboutgallery .aboutgalleryimgs{}
+.material-icons {
+  font-size: 18px;
+  position: relative;
+  top: 5px;
 }
 #lastimgcontainer{
   display: flex;
